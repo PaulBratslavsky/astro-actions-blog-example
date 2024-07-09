@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_signups",
+  "info": {
+    "singularName": "email-signup",
+    "pluralName": "email-signups",
+    "displayName": "Email Signup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
